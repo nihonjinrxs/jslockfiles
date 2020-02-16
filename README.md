@@ -1,5 +1,7 @@
 # JSLockfiles
 
+[![Build Status](https://travis-ci.com/nihonjinrxs/jslockfiles.svg?branch=master)](https://travis-ci.com/nihonjinrxs/jslockfiles) [![Coverage Status](https://coveralls.io/repos/github/nihonjinrxs/jslockfiles/badge.svg?branch=master)](https://coveralls.io/github/nihonjinrxs/jslockfiles?branch=master)
+
 Parse JavaScript package lock files in your Ruby app without
 a JavaScript runtime dependency.
 
