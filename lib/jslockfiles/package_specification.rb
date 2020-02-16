@@ -18,8 +18,17 @@ module JSLockfiles
         [ d[:name], d[:version], d[:resolved] ]
       }
       @dev_only = package_hash[:dev_only]
+      if @dev_only.nil?
+        @dev_only = false
+      end
       @bundled = package_hash[:bundled]
+      if @bundled.nil?
+        @bundled = false
+      end
       @optional = package_hash[:optional]
+      if @optional.nil?
+        @optional = false
+      end
     end
   end
 end
