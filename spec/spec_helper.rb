@@ -1,4 +1,8 @@
 require "bundler/setup"
+
+require "coveralls"
+Coveralls.wear!
+
 require "jslockfiles"
 
 RSpec.configure do |config|
